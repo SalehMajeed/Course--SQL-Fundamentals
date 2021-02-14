@@ -33,7 +33,7 @@ WHERE Clause allow to perform filteration. here are some listed operators that u
 3. <
 4. >
 5. <=
-6. > =
+6. \>=
 
 Q. What does NULL represent?
 

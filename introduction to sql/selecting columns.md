@@ -62,7 +62,9 @@ Select the name of each person in the people table.
 
 ```sql
 SELECT title FROM films;
+
 SELECT release_year FROM films;
+
 SELECT name FROM people;
 ```
 
@@ -76,8 +78,11 @@ Get all columns from the films table.
 
 ```sql
 SELECT title, release_year FROM films;
+
 SELECT title, release_year FROM films;
+
 SELECT title, release_year, country FROM films;
+
 SELECT * FROM films;
 ```
 
@@ -89,7 +94,9 @@ Get the different types of film roles from the roles table.
 
 ```sql
 SELECT DISTINCT country FROM films;
+
 SELECT DISTINCT certification FROM films;
+
 SELECT DISTINCT role FROM roles;
 ```
 
@@ -111,16 +118,12 @@ Count the number of unique countries in the films table.
 
 ```sql
 SELECT COUNT(*) FROM people;
+
 SELECT COUNT(birthdate) FROM people;
+
 SELECT COUNT(DISTINCT birthdate) FROM people;
+
 SELECT COUNT(DISTINCT language) FROM films;
+
 SELECT COUNT(DISTINCT country) FROM films;
-```
-
-```sql
-select name from people where id = 2;
-```
-
-```sql
-select name from people where id = 2;
 ```
